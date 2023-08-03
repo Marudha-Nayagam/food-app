@@ -1,0 +1,99 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    display: flex;
+    width: 100%;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.nav {
+    width: 1680px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    
+}
+.links{
+    display: flex;
+    gap:10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+}
+
+.food-card {
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    
+
+
+}
+.card-header {
+    position: relative;
+    width: 100%;
+}
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+}
+.must-try {
+    position: absolute;
+    top:0;
+    padding: 2px 10px;
+    background-color: rgb(173, 238, 173);
+    color:rgb(1, 29, 1);
+    border-radius: 14px;
+    font-size: 12px;
+    margin: 10px;
+}
+.rating {
+    position: absolute;
+    bottom:0;
+    padding: 2px 10px;
+    background-color: rgb(236, 135, 135);
+    color:white;
+    border-radius: 14px;
+    font-size: 12px;
+    margin: 10px;
+    
+}
+.seller {
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 2px 10px;
+    background-color: rgb(201, 201, 243);
+    color:rgb(2, 2, 43);
+    border-radius: 14px;
+    font-size: 12px;
+    margin: 10px;
+}
+.input {
+    width: 350px;
+    border: none;
+    padding:16px;
+    font-size: 16px;
+}
+.search-btn{
+    background-color: white;
+    border: none;
+}
+.search {
+    border: 1px solid lightgray;
+    border-radius: 60px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
